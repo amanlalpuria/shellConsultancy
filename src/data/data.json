@@ -1,0 +1,140 @@
+{
+  "Header": {
+    "title": "Sell Consultancy",
+    "paragraph": "Connecting talent with Opportunity"
+  },
+  "About": {
+    "paragraph": "At Shell Consultancy, we are driven by a singular passion: to empower individuals on their journey to fulfilling, meaningful careers. With a deep commitment to matching talent with opportunity, we've become a trusted partner for job seekers and companies alike..",
+    "paragraph2": "Whether you're a job seeker or a company in search of exceptional talent, Shell Consultancy is your trusted partner. Join us on a path towards unlocking your full potential and achieving your career objectives.",
+    "Why": [
+      "IT Staffing",
+      "BPO"
+    ],
+    "Why2": [
+      "Call Center"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Job Placement",
+      "text": "Finding the perfect job for you."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Recruitment Solutions",
+      "text": "Connecting businesses with top talent."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Career Guidance",
+      "text": "Providing valuable insights and advice to enhance your career path."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Industry Expertise",
+      "text": "Specialized knowledge in various industries to meet your unique needs."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Manan Sharma",
+      "job": "Director"
+    }
+  ],
+  "Contact": {
+    "address": "Plot 24 East Syam Vihar Charan Nadi, Nadi ka Phatak, Murlipura, Jaipur, Rajasthan ",
+    "phone": "+91 88540 84736",
+    "email": "shellconsultancy@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Experience",
+      "text": "With years of industry experience, our team understands the nuances of the job market and what it takes to succeed."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Personalized Service",
+      "text": "We value the uniqueness of each individual and tailor our services to meet your specific needs."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Strong Connections",
+      "text": "We have cultivated an extensive network of employers and job seekers, ensuring you have access to a wide range of opportunities."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Professional Expertise",
+      "text": "Our team comprises skilled professionals who are passionate about helping you achieve your career goals."
+    }
+  ]
+}
