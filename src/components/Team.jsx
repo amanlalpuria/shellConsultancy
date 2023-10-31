@@ -10,8 +10,8 @@ export const Team = (props) => {
             Get to Know the Faces Behind Shell Consultancy - Our Dedicated Team of Experts Ready to Guide You Towards Success.
           </p>
         </div>
-        <div id="row">
-          <center>
+        <div id="centered-row">
+
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
@@ -26,7 +26,7 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
-          </center>
+
         </div>
       </div>
     </div>

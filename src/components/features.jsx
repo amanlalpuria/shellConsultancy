@@ -7,7 +7,7 @@ export const Features = (props) => {
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Why Choose Shell Consultancy?</h2>
         </div>
-        <div className="row">
+        <div className="featureRow">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
@@ -19,6 +19,7 @@ export const Features = (props) => {
               ))
             : "Loading..."}
         </div>
+          <div></div>
       </div>
     </div>
   );

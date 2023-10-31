@@ -604,3 +604,9 @@ label {
     margin: 50px 0;
   }
 }
+
+.centered-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
