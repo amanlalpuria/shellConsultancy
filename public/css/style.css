@@ -425,12 +425,11 @@ header .intro-text {
   height: 64px;
   border-radius: 50%;
 }
+footer-image,
 .footer-image img{
   display: block;
   width: 800px;
   height: 400px;
-
-
 }
 .testimonial-content {
   position: relative;
