@@ -132,3 +132,4 @@ dist
 # intellij
 .idea
 build
+.DS_Store

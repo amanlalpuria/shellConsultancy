@@ -19,7 +19,6 @@ export const Features = (props) => {
               ))
             : "Loading..."}
         </div>
-          <div></div>
       </div>
     </div>
   );

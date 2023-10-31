@@ -247,6 +247,7 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+  padding-bottom: 100px;
 }
 #features i.fa {
   font-size: 38px;
@@ -423,6 +424,13 @@ header .intro-text {
   width: 64px;
   height: 64px;
   border-radius: 50%;
+}
+.footer-image img{
+  display: block;
+  width: 800px;
+  height: 400px;
+
+
 }
 .testimonial-content {
   position: relative;
