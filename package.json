@@ -1,7 +1,7 @@
 {
   "name": "shell-consultancy",
   "private": true,
-  "homepage": "https://shellconsultancy.in",
+  "homepage": "https://amanlalpuria.github.io/shellConsultancy/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
