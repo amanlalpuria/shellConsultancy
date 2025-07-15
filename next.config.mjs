@@ -1,14 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
   },
-  images: {
-    unoptimized: true,
-  },
-}
+  basePath: '', // Leave empty for custom domain
+  assetPrefix: './', // Key fix for GitHub Pages
+};
 
-export default nextConfig
+export default nextConfig;

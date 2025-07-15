@@ -45,7 +45,7 @@ module.exports = nextConfig;
   "dev": "next dev",
   "build": "next build",
   "export": "next export",
-  "deploy": "gh-pages -d out"
+   "deploy": "next build && gh-pages -d out"
 }
 ```
 
