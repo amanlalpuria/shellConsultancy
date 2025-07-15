@@ -11,7 +11,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  basePath: '', // Leave empty for custom domain
+  basePath: '/shellConsultancy', // Leave empty for custom domain
   assetPrefix: './', // Key fix for GitHub Pages
 };
 
