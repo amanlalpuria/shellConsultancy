@@ -44,8 +44,7 @@ module.exports = nextConfig;
 "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "export": "next export",
-   "deploy": "next build && gh-pages -d out"
+  "deploy": "next build && gh-pages -d out"
 }
 ```
 
@@ -55,7 +54,6 @@ module.exports = nextConfig;
 
 ```bash
 npm run build
-npm run export
 npm run deploy
 ```
 
@@ -65,7 +63,7 @@ This pushes the content of the `out/` folder to the `gh-pages` branch on your Gi
 
 * Go to your repo → **Settings → Pages**
 * Set **Source** to `gh-pages` branch → `/root`
-* Add your custom domain (e.g. `www.shellconsultancy.com`)
+* Add your custom domain (e.g. `www.shellconsultancy.in`)
 * Check **Enforce HTTPS**
 
 ---
@@ -74,7 +72,7 @@ This pushes the content of the `out/` folder to the `gh-pages` branch on your Gi
 
 ### 3.1 Create a Free Cloudflare Account
 
-* Go to [https://cloudflare.com](https://cloudflare.com)
+* Go to [https://cloudflare.in](https://cloudflare.in)
 * Click **Add Site**, and enter your domain
 * Choose **Free Plan**
 
@@ -124,7 +122,7 @@ Go to **Rules → Page Rules** or **SSL/TLS → Edge Certificates**:
 
 * GitHub Pages shows status ✅
 * Cloudflare DNS is active (green check)
-* Your domain (`https://www.shellconsultancy.com`) loads the site securely
+* Your domain (`https://www.shellconsultancy.in`) loads the site securely
 
 ---
 
@@ -132,9 +130,9 @@ Go to **Rules → Page Rules** or **SSL/TLS → Edge Certificates**:
 
 Go to **Cloudflare → Rules → Page Rules**:
 
-* **If URL matches**: `shellconsultancy.com/*`
+* **If URL matches**: `shellconsultancy.in/*`
 * **Setting**: Forwarding URL → `301`
-* **Destination**: `https://www.shellconsultancy.com/$1`
+* **Destination**: `https://www.shellconsultancy.in/$1`
 
 ---
 
