@@ -3,8 +3,11 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Shell Consultancy',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  description: 'Vedvix.in',
+  generator: 'Vedvix.in',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
@@ -14,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body>{children}</body>
     </html>
   )
