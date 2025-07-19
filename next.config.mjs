@@ -5,14 +5,15 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/shellConsultancy',
+  assetPrefix: '/shellConsultancy',
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
   },
-  // basePath: '/shellConsultancy',
-  // assetPrefix: './',
+  
 };
 
 export default nextConfig;

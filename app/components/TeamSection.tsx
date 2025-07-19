@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
-import { staggerContainer, fadeInUp, teamMembers } from '@/app/data/data.tsx';
+import { staggerContainer, fadeInUp, teamMembers } from '@/app/data/data';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { withBasePath } from '@/utils/prefix';
 
 export function TeamSection() {
   return (
@@ -37,7 +38,7 @@ export function TeamSection() {
                 <CardHeader className="text-center">
                   <div className="mx-auto w-24 h-24 rounded-full overflow-hidden mb-4 group-hover:scale-110 transition-transform duration-300">
                     <img
-                      src={member.image || '/placeholder.svg'}
+                      src={withBasePath(member.image || '/placeholder.svg')}
                       alt={member.name}
                       className="w-full h-full object-cover"
                     />

@@ -1,8 +1,11 @@
-import { motion } from 'framer-motion';
-import { staggerContainer, fadeInUp, valuedClients } from '@/app/data/data.tsx';
-import { Badge } from '@/components/ui/badge';
+'use client'
 
-export function ValuedClientsSection() {
+import { motion } from 'framer-motion';
+import { staggerContainer, fadeInUp, valuedClients } from '@/app/data/data';
+import { Badge } from '@/components/ui/badge';
+import { withBasePath } from '@/utils/prefix'
+
+export function ValuedClientsSection() {  
   return (
     <section className="py-20 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,7 +44,7 @@ export function ValuedClientsSection() {
                 <div className="flex flex-col items-center text-center">
                   <div className="w-32 h-20 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-lg flex items-center justify-center mb-4 group-hover:from-blue-200 group-hover:to-cyan-200 transition-all duration-300">
                     <img
-                      src={client.logo || '/placeholder.svg'}
+                      src={withBasePath(client.logo || '/placeholder.svg')}
                       alt={client.name}
                       className="max-w-full max-h-full object-contain opacity-70 group-hover:opacity-100 transition-opacity duration-300"
                     />

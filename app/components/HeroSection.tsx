@@ -41,7 +41,7 @@ export function HeroSection({ y }: HeroSectionProps) {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <Button
+            {/* <Button
               size="lg"
               className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 px-8 py-4 text-lg"
             >
@@ -53,7 +53,7 @@ export function HeroSection({ y }: HeroSectionProps) {
               className="border-blue-300 text-blue-700 hover:bg-blue-50 px-8 py-4 text-lg bg-transparent"
             >
               Learn More
-            </Button>
+            </Button> */}
           </motion.div>
 
           <motion.div

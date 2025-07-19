@@ -1,4 +1,5 @@
 import { Linkedin, Instagram } from 'lucide-react';
+import { withBasePath } from '@/utils/prefix';
 
 export function FooterSection() {
   return (
@@ -7,11 +8,13 @@ export function FooterSection() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
+              
               <img
-                                src={'/shelllogo.jpg'}
-                                alt="Shell Consultancy"
-                                className="w-40 h-20 object-cover"
-                              />
+                src={withBasePath('/shelllogo.jpg')}
+                alt="Shell Consultancy"
+                className="w-40 h-20 object-cover"
+              />
+
               {/* <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-lg flex items-center justify-center">
 
               </div> */}
