@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/shellConsultancy',
-  assetPrefix: '/shellConsultancy',
+  // basePath: '/shellConsultancy',
+  // assetPrefix: '/shellConsultancy',
   eslint: {
     ignoreDuringBuilds: true,
   },
