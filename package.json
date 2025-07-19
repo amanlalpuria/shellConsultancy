@@ -2,7 +2,7 @@
   "name": "shell-consultancy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shellconsultancy.in/",
+  "homepage": "https://shellconsultancy.in",
   "scripts": {
   "dev": "next dev",
   "build": "next build",

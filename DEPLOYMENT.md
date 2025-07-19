@@ -14,7 +14,7 @@ This guide explains how to deploy your **Next.js** project to **GitHub Pages**, 
 
 ## 1. 📦 Prepare Next.js for Static Export
 
-> GitHub Pages supports only static sites, so we’ll use `next export`.
+> Used github action to deploy refer the file `.github\workflows\publishNextjs.yml`
 
 ### 1.1 Install required packages
 
@@ -22,7 +22,7 @@ This guide explains how to deploy your **Next.js** project to **GitHub Pages**, 
 npm install --save-dev gh-pages
 ````
 
-### 1.2 Update `next.config.js`
+### 1.2 Update `next.config.mjs`
 
 > Create one if not already present.
 
@@ -30,12 +30,22 @@ npm install --save-dev gh-pages
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  images: { unoptimized: true }, // Important if using <Image />
   trailingSlash: true,
-  basePath: '', // set this if deploying to a sub-path
+  images: {
+    unoptimized: true,
+  },
+  basePath: '/shellConsultancy',
+  assetPrefix: '/shellConsultancy',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  
 };
 
-module.exports = nextConfig;
+export default nextConfig;
 ```
 
 ### 1.3 Update `package.json` Scripts
@@ -44,8 +54,8 @@ module.exports = nextConfig;
 "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "deploy": "next build && gh-pages -d out"
-}
+  "start": "next start"
+  }
 ```
 
 ---
@@ -54,16 +64,14 @@ module.exports = nextConfig;
 
 ```bash
 npm run build
-npm run deploy
 ```
 
-This pushes the content of the `out/` folder to the `gh-pages` branch on your GitHub repo.
 
 ### 2.1 Configure GitHub Pages
 
 * Go to your repo → **Settings → Pages**
-* Set **Source** to `gh-pages` branch → `/root`
-* Add your custom domain (e.g. `www.shellconsultancy.in`)
+* Set **Build and deployment → Source** to `GitHub Actions`
+* Add your custom domain (e.g. `shellconsultancy.in`)
 * Check **Enforce HTTPS**
 
 ---
